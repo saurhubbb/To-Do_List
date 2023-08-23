@@ -1,17 +1,3 @@
-// function add_item(){
-//     let item= document.getElementById('box');
-//     list_item=document.getElementById('listview');
-
-//     if(item.value !=""){
-//         let make_li=document.createElement('li');
-//         make_li.appendChild(document.createTextNode(item.value));
-//         list_item.appendChild(make_li);
-//         item.value=""
-//     }
-//     else{
-//         alert("Task can not be empty");
-//     }
-// }
 
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
