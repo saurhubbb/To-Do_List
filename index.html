@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1>To-do List</h1> -->
+    <div class="container">
+        <div class="main-card">
+            <h2>To-Do List 📝</h2>
+            <div class="card-inputs">
+                <input type="text" id="input-box" class="task-input" placeholder="Add your task...">
+                <button class="add_task" onclick="AddTask()" id="add_btn">Add</button>
+            </div>
+            <ul id="list-container" class="list-group">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+            <hr style="margin-top:20px">
+            <h5 class="list-footer">Number of task : <span id="number_of_task">0</span></h5>
+        </div>
+    </div>
+    
+    <script src="todo.js"></script>
+</body>
+</html>
